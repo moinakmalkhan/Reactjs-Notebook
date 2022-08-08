@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:  #F2F3F4 !important;
+}
+
+.header{
+    background-color: #F4D03F;
+    height: 70px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0rem 4rem;
+}
+.logo h2{
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+.add-note{
+    background-color: #fff;
+    margin-top: 4rem;
+    padding: 20px 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.add-note form {
+    width: 100%;
+}
+.add-note form input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #CACFD2;
+    font-size: 1.05rem;
+    font-weight: 400;
+    background-color: #F2F3F4;
+    color: #111 !important;
+    padding: .7rem 1rem;
+    border-radius: 0px !important;
+}
+
+.add-note form textarea{
+    border: 0px !important;
+    outline: none;
+    font-size: 1.1;
+    font-weight: 400;
+    padding: 1.2rem 1rem;
+    color: #1C2833;
+    background-color: #F2F3F4;
+}
+
+.add-note form input:focus,
+.add-note form textarea:focus{
+    box-shadow: none !important;
+    outline: none;
+    border-bottom: 1px solid #CACFD2;
+    background-color: #F2F3F4;
+}
+
+.add-btn{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.add-note form button{
+    padding: .35rem .9rem;
+    background-color: #F4D03F;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+}
+
+.note-list{
+    margin-top: 3rem;
+    position: relative;
+}
+
+.note-list-content{
+    background-color: #fff;
+    padding: 20px 15px;
+    max-height: 30vh;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 100vh;
+    overflow-y: auto;
+}
+hr{
+    margin: 10px 0px !important;
+}
+.note-list-content h3{
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #1C2833;
+    margin-bottom: 0;
+}
+
+.note-list-content p{
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #444;
+    letter-spacing: .2px;
+}
+.text-red{
+    color: #A93226;
+}
+.text-blue{
+    color: #3498DB;
+}
+.icon span i{
+    background-color: #CACFD2;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.footer{
+    height: 30px;
+    background-color: #F4D03F;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
